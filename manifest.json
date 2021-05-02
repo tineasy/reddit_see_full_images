@@ -1,13 +1,22 @@
 {
-  "manifest_version": 3,
-
-  "name": "reddit: see full images",
-  "version": "1.0",
+  "author": "Valentin Stets",
+  "content_scripts": [
+    {
+      "run_at": "document_start",
+      "matches": ["https://www.reddit.com/*"],
+      "exclude_matches": ["https://www.reddit.com/*/*/comments/*"],
+      "css": ["css/feed.min.css"]
+    },
+    {
+      "run_at": "document_start",
+      "matches": ["https://www.reddit.com/*/*/comments/*"],
+      "css": ["css/comments.min.css"]
+    }
+  ],
   "description": "Simple, lightweight extension to have full images on reddit.",
-  "icons": {
-    "16": "icons/16.png",
-    "32": "icons/32.png",
-    "48": "icons/48.png",
-    "128": "icons/128.png"
-  }
+  "host_permissions": ["https://www.reddit.com/*"],
+  "icons": { "16": "icons/16.png", "32": "icons/32.png", "48": "icons/48.png", "128": "icons/128.png" },
+  "manifest_version": 3,
+  "name": "reddit: see full images",
+  "version": "1.0"
 }

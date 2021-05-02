@@ -1,0 +1,53 @@
+/* Removes "SEE FULL IMAGE" */
+div._3hUbl08LBz2mbXjy0iYhOS,
+div._3b8u2OJXaSDdBWoRB7zUoK {
+  display: none !important;
+}
+
+img.ImageBox-image {
+  max-height: unset !important;
+}
+
+div.m3aNC6yp8RrNM_-a0rrfa:not([style]) {
+  max-height: unset !important;
+}
+
+div._3Oa0THmZ3f5iZXAQ0hBJ0k {
+  max-height: unset !important;
+}
+
+/* Remove useless padding */
+div.P8p9Nku0-ZbYCsaCOSE2t {
+  padding-bottom: unset !important;
+}
+
+/* Makes vertical images inside sliders exist */
+figure._1ti9kvv_PMZEF2phzAjsGW > div {
+  height: 100% !important;
+}
+
+/* Makes whole slider images fit */
+img._1dwExqTGJH2jnA-MYGkEL- {
+  height: 100% !important;
+}
+
+/* video outline */
+div._3JgI-GOrkmyIeDeyzXdyUD._2CSlKHjH7lsjx0IpjORx14 > video.media-element.tErWI93xEKrI2OkozPs7J {
+  outline: 5px rgba(0, 0, 0, 0.5) dotted !important;
+  outline-offset: -10px !important;
+  width: 100% !important;
+}
+
+/* broken padding */
+div._3JgI-GOrkmyIeDeyzXdyUD._2CSlKHjH7lsjx0IpjORx14 > div {
+  margin: 0 auto !important;
+  height: 100% !important;
+}
+
+div._3Oa0THmZ3f5iZXAQ0hBJ0k {
+  height: 100% !important;
+}
+
+img._2_tDEnGMLxpM6uOa2kaDB3.ImageBox-image._1XWObl-3b9tPy64oaG6fax {
+  max-height: 100% !important;
+}
