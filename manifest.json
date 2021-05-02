@@ -5,12 +5,12 @@
       "run_at": "document_start",
       "matches": ["https://www.reddit.com/*"],
       "exclude_matches": ["https://www.reddit.com/*/*/comments/*"],
-      "css": ["css/feed.min.css"]
+      "css": ["css/feed.css"]
     },
     {
       "run_at": "document_start",
       "matches": ["https://www.reddit.com/*/*/comments/*"],
-      "css": ["css/comments.min.css"]
+      "css": ["css/comments.css"]
     }
   ],
   "description": "Simple, lightweight extension to have full images on reddit.",
