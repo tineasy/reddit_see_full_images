@@ -1,5 +1,5 @@
 {
-  "name": "instagram_mini-downloader",
+  "name": "reddit_see_full_images",
   "version": "1.0.0",
   "description": "Simple extension which downloads Instagram post image on click, and downloads any kind of story on click on time.",
   "scripts": {
@@ -18,9 +18,9 @@
   "homepage": "https://github.com/tineasy/instagram_mini-downloader#readme",
   "devDependencies": {
     "del": "^6.0.0",
-    "gulp-autoprefixer": "^7.0.1",
+    "gulp": "^4.0.2",
+    "gulp-autoprefixer": "^6.1.0",
     "gulp-clean-css": "^4.3.0",
-    "gulp-uglify-es": "^2.0.0",
-    "gulp": "^4.0.2"
+    "gulp-uglify-es": "^2.0.0"
   }
 }

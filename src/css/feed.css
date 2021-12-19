@@ -32,7 +32,8 @@ img._1dwExqTGJH2jnA-MYGkEL- {
 }
 
 /* video outline */
-div._3JgI-GOrkmyIeDeyzXdyUD._2CSlKHjH7lsjx0IpjORx14 > video.media-element.tErWI93xEKrI2OkozPs7J {
+div._3JgI-GOrkmyIeDeyzXdyUD._2CSlKHjH7lsjx0IpjORx14
+  > video.media-element.tErWI93xEKrI2OkozPs7J {
   outline: 5px rgba(0, 0, 0, 0.5) dotted !important;
   outline-offset: -10px !important;
   width: 100% !important;
